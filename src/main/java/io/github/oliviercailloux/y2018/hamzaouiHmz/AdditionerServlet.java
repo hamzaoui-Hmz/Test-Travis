@@ -48,7 +48,7 @@ public class AdditionerServlet extends HttpServlet {
 				if (this.defautParam != null) {
 					int num2 = this.defautParam;
 				} else {
-					// defautParam=0;
+					
 					throw new NumberFormatException("Exception");
 
 				}
